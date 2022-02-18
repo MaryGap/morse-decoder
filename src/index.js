@@ -38,6 +38,7 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
+    MORSE_TABLE[""] = " ";
     const array = [];
 
   const arrayTemp = [];
